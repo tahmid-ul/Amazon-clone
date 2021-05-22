@@ -5,8 +5,8 @@ import ProductFeed from "../components/ProductFeed";
 
 export default function Home({ products }) {
   return (
-    <div>
-      <Head className="bg-gray-100">
+    <div className="bg-gray-100">
+      <Head>
         <title>Amazon 2.0</title>
       </Head>
 
